@@ -67,17 +67,28 @@ bin/kafka-topics.sh --bootstrap-server localhost:9092 –list
 These are the screenshots of initializing Kafka
 
 # Task 1: Data Streaming
+## Producer
 a. You have to read and store the profile file before streaming relationship data so
 that you can process nodes. To emulate streaming data you have to read the
 relationship file in batches/chunks after the fixed time interval using Kafka.
 
 ---
 
-
+## Consumer
 b. You also need to store streaming data in the Database(The consumer will store the
 streaming data in a Database).
 
+## Graph Mining Algorithms 
+## Shortest Path Algorithm
+
+**Bellman Ford algorithm** we used for shortest path as our graph data is unweighted.
+
+## Clustering
+
+We used **Louvain Clusstering** Algorithm for clustering unweighted graphs 
+
 # Analysis Report
+
 
 
 
